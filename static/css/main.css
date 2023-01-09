@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+#yeet{
+  background-image: url('../images/wallpaper.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 10px 20px ; */
+  /* line-height: .25; */
+}
+
+#yeet button{
+  font-size: large;
+  text-decoration: none;
+  border: 2px blueviolet solid;
+  border-radius: 15px;
+  color: blue;
+
+}
+
+#yeet button:hover{
+  background-color: burlywood ;
+}
+
+#yeet button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+[data-tooltip]{
+  position: absolute;
+  margin-top: 20%;
+}
+
+[data-tooltip]:hover::after{
+  content: attr(data-tooltip);
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: aqua;
+}
+
+.container-1{
+  display: flex;
+  align-items: center;
+
+}
+.container-1 div{
+  background-color: black;
+  border: 2px aquamarine dotted;
+ 
+}
+.box-1{
+  
+}
